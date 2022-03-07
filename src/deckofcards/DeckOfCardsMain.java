@@ -10,7 +10,7 @@ package deckofcards;
 
 public class DeckOfCardsMain {
 	/*
-	 * @Purpose : For Calling Welcome,Deck Of Cards
+	 * @Purpose : For Calling Welcome Method, Deck Of Cards Method
 	 */
 	public static void main(String[] args) {
 		DeckOfCards deckOfCardsGame = new DeckOfCards();

@@ -13,15 +13,20 @@ package deckofcards;
 import java.util.ArrayList;
 
 public class DeckOfCards {
-
+	/*
+	 * @Purpose : Arraylists Of Cards
+	 */
 	public ArrayList<String> cardsDeck = new ArrayList<>();
 
+	/*
+	 * @Purpose : To Initialise with Welcome Message
+	 */
 	public void welcome() {
 		System.out.println("Welcome to the gaming world of Deck of Cards");
 	}
 
 	/*
-	 * @Purpose : To Initialise The Cards Rank And Suits
+	 * @Purpose : To Initialise The 52 Cards With Ranks And Suits
 	 */
 	public void deckOfCards() {
 		String[] suits = { "Clubs", "Diamonds", "Hearts", "Spades" };
